@@ -18,11 +18,18 @@ Este aplicativo é uma "Máquina do Tempo" que calcula a idade de uma pessoa em 
 - **Ano Atual:** O ano atual é considerado 2023, conforme mencionado na descrição do campo.
 
 ## EXECUTANDO O PROJETO:
-1. **Executando o Aplicativo:**
+1. **Executando o Aplicativo com Apache:**
    - Coloque os arquivos em um servidor web compatível com PHP (por exemplo, XAMPP, WAMP, LAMP).
-   - Acesse o formulário no navegador visitando `http://localhost/CODIGO/index.php`.
+   - Acesse o formulário no navegador visitando [http://localhost/CODIGO/index.php](http://localhost/CODIGO/index.php).
 
-2. **Interagir com o Projeto:**
+2. **Executando o Aplicativo com `php.exe`:**
+   - Alternativamente, você pode iniciar o servidor diretamente no diretório `./CODIGO` com o comando abaixo:
+   ```bash
+   php -S localhost:8080
+   ```
+   - Em seguida, acesse o formulário no navegador através do endereço: [http://localhost:8080](http://localhost:8080).
+
+3. **Interagir com o Projeto:**
    1. **Abrir a Página Inicial**
       - Ao abrir a página inicial do aplicativo, você verá um formulário com campos para inserir o ano de nascimento e o ano em que deseja saber sua idade.
 
